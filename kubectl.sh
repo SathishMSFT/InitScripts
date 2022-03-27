@@ -11,7 +11,7 @@ sudo chmod a+x /usr/local/bin/yq
 yq --version
 
 #kubectl neat
-sudo wget -qO https://github.com/itaysk/kubectl-neat/releases/latest/download/kubectl-neat_linux_amd64.tar.gz
+sudo wget https://github.com/itaysk/kubectl-neat/releases/latest/download/kubectl-neat_linux_amd64.tar.gz
 tar -xvf kubectl-neat_linux_amd64.tar.gz
 sudo mv kubectl-neat /usr/local/bin/.
 echo "alias kneat='kubectl neat | yq e'" >> ~/.bashrc
