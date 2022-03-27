@@ -8,6 +8,6 @@ sudo unzip ~/.poshthemes/themes.zip -d ~/.poshthemes
 sudo chmod u+rw ~/.poshthemes/*.json
 sudo rm ~/.poshthemes/themes.zip
 
-app='eval "$(oh-my-posh init bash --config ~/.amro.omp.json)"'
+app='eval "$(oh-my-posh init bash --config ~/.poshthemes/.amro.omp.json)"'
 echo $app >> ~/.bashrc
 source ~/.bashrc
