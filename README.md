@@ -5,4 +5,4 @@ Run the following cmd to setup:
 
     wget https://raw.githubusercontent.com/SathishMSFT/InitScripts/main/runSetup.sh
     sudo chmod 777 ./runSetup.sh
-    runSetup.sh
+    ./runSetup.sh
