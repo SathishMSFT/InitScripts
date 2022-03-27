@@ -2,3 +2,4 @@ curl -L -o kubebuilder https://go.kubebuilder.io/dl/latest/$(go env GOOS)/$(go e
 sudo chmod +x kubebuilder
 sudo mv kubebuilder /usr/local/bin/
 echo "source <(kubebuilder completion bash)" >> ~/.bashrc
+source ~/.bashrc

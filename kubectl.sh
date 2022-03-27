@@ -19,5 +19,6 @@ echo "alias kneat='kubectl neat | yq e'" >> ~/.bashrc
 #kubectl aliases
 wget -qO ~/.kubectl_aliases https://raw.githubusercontent.com/ahmetb/kubectl-aliases/0533366d8e3e3b3987cc1b7b07a7e8fcfb69f93c/.kubectl_aliases
 echo "[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases" >>  ~/.bashrc
+source ~/.bashrc
 
 
